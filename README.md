@@ -16,4 +16,4 @@ bundle exec rspec spec/ --format documentation
 find . -type f | xargs sed -i 's/opinion/body/g'
 
 一回テストを試していると、テスト用のデータベースtest.sqlite3ができているため、カラム名を変更したのちに再びやる時は
-rm db/test.sqlite3によって、ファイルを削除してから実行する
+rm db/test.sqlite3によって、ファイルを削除してから実行する![image](https://user-images.githubusercontent.com/57820414/73118840-10a6be80-3f9d-11ea-804b-a66ef5ca20be.png)
